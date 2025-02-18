@@ -191,6 +191,7 @@ int main() {
         cin >> key;
         root = insertTree(root, key);
     }
+   
 
     cout << "Вывод змейкой:" << endl;
     zigzagTraversal(root);
